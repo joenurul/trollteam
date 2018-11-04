@@ -3,6 +3,10 @@
 # Modified by : _joekers_
 # ==================================================
 # Initializing Var
+export DEBIAN_FRONTEND=noninteractive
+OS=`uname -m`;
+MYIP=$(wget -qO- ipv4.icanhazip.com);
+MYIP2="s/xxxxxxxxx/$MYIP/g";
 # Root Directory
 cd
 
