@@ -219,7 +219,7 @@ chmod +x screenfetch
 # Download Commands
 cd /usr/bin
 wget https://github.com/joenurul/trollteam/raw/master/Files/Menu/archiveNew.tar.gz
-tar -xzvf archiveNew.tar.gz
+tar -zxvf archiveNew.tar.gz
 rm archiveNew.tar.gz
 sed -i -e 's/\r$//' accounts
 sed -i -e 's/\r$//' bench-network
