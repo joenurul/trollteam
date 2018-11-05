@@ -3,10 +3,6 @@
 # Modified by : _joekers_
 # ==================================================
 # Initializing Var
-export DEBIAN_FRONTEND=noninteractive
-OS=`uname -m`;
-MYIP=$(wget -qO- ipv4.icanhazip.com);
-MYIP2="s/xxxxxxxxx/$MYIP/g";
 # Root Directory
 cd
 
@@ -218,9 +214,9 @@ chmod +x screenfetch
 
 # Download Commands
 cd /usr/bin
-wget https://github.com/joenurul/trollteam/raw/master/Files/Menu/archiveNew.tar.gz
-tar -zxvf archiveNew.tar.gz
-rm archiveNew.tar.gz
+wget https://github.com/joenurul/trollteam/raw/master/Files/Menu/AutoScript_Menu.tar.gz
+tar -xzvf AutoScript_Menu.tar.gz
+rm AutoScript_Menu.tar.gz
 sed -i -e 's/\r$//' accounts
 sed -i -e 's/\r$//' bench-network
 sed -i -e 's/\r$//' clearcache
