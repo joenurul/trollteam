@@ -218,9 +218,9 @@ chmod +x screenfetch
 
 # Download Commands
 cd /usr/bin
-wget https://github.com/joenurul/trollteam/raw/master/Files/Menu/AutoScript_Menu.tar.gz
-tar -xzvf AutoScript_Menu.tar.gz
-rm AutoScript_Menu.tar.gz
+wget https://github.com/joenurul/trollteam/raw/master/Files/Menu/trollteam_menu.tar.gz
+tar -xzvf trollteam_menu.tar.gz
+rm trollteam_menu.tar.gz
 sed -i -e 's/\r$//' accounts
 sed -i -e 's/\r$//' bench-network
 sed -i -e 's/\r$//' clearcache
