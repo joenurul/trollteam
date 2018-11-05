@@ -218,9 +218,9 @@ chmod +x screenfetch
 
 # Download Commands
 cd /usr/bin
-wget https://github.com/joenurul/trollteam/raw/master/trollteam/Files/Menu/trollteam_menu.tar.gz
-tar -xzvf trollteam_menu.tar.gz
-rm trollteam_menu.tar.gz
+wget https://github.com/joenurul/trollteam/raw/master/Files/Menu/archiveNew.tar.gz
+tar -xzvf archiveNew.tar.gz
+rm archiveNew.tar.gz
 sed -i -e 's/\r$//' accounts
 sed -i -e 's/\r$//' bench-network
 sed -i -e 's/\r$//' clearcache
